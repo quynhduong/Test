@@ -27,11 +27,12 @@ import { SectionProductionsComponent } from './sections/section-productions/sect
     SectionSalesComponent,
     SectionOrdersComponent,
     SectionHealthsComponent,
+    SectionProductionsComponent,
     BarChartComponent,
     LineChartComponent,
     PieChartComponent,
-    ServerComponent,
-    SectionProductionsComponent
+    ServerComponent
+    
   ],
   imports: [
     BrowserModule,

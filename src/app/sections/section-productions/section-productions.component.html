@@ -1,1 +1,27 @@
-<p>section-productions works!</p>
+<div class="section-container">
+    <h2>
+        Production Orders
+    </h2>
+    <table class="table table-inverse table-hover">
+        <thead class="thead-dark">
+            <tr>
+                <th>ID</th>
+                <th>Item</th>
+                <th>Amount</th>
+                <th>StartDate</th>
+                <th>EndDate</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let production of productions">
+                <td>{{ production.id }}</td>
+                <td>{{ production.item.name }}</td>
+                <td>{{ production.amount }}</td>
+                <td>{{ production.startDate | date: 'short' }}</td>
+                <td>{{ production.endDate | date: 'short' }}</td>
+                <td>Status</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
