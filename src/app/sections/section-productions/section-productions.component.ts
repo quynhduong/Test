@@ -21,7 +21,9 @@ export class SectionProductionsComponent implements OnInit {
    {id:3, item: 
       {id: 3, name: 'SLS', description:'Dasdjasl', price:50},
       amount:200, startDate: new Date(2019,1,1), endDate: new Date(2019,5,5)},
-
+   {id:4, item: 
+      {id: 3, name: 'SLS', description:'some descriptions', price:50},
+        amount:300, startDate: new Date(2019,1,1), endDate: new Date(2019,6,5)},
   ];
 
   ngOnInit() {

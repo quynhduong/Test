@@ -18,6 +18,7 @@ import { LineChartComponent } from './charts/line-chart/line-chart.component';
 import { PieChartComponent } from './charts/pie-chart/pie-chart.component';
 import { ServerComponent } from './server/server.component';
 import { SectionProductionsComponent } from './sections/section-productions/section-productions.component';
+import { SectionItemsComponent } from './sections/section-items/section-items.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { SectionProductionsComponent } from './sections/section-productions/sect
     BarChartComponent,
     LineChartComponent,
     PieChartComponent,
-    ServerComponent
+    ServerComponent,
+    SectionItemsComponent
     
   ],
   imports: [
