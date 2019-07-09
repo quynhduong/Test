@@ -1,6 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Server } from '../shared/server'
-import { Server } from 'tls';
+import { Server } from '../shared/server';
 
 @Component({
   selector: 'app-server',
