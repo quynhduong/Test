@@ -1,6 +1,6 @@
 <div class="section-container">
-    <div class="cards">
-        <div class="card-deck">
+    <div class="row-fluid cards">
+            <div class="card-deck">
             <div class="card mb-3 shadow card-theme">
                 <div class="card-header card-header-theme">
                     <h5>Production</h5>
@@ -8,7 +8,28 @@
                 <div card="card-body">
                     <app-production-line-chart></app-production-line-chart>
                 </div>
-            </div>
+            
         </div>
+       
+            <div class="card mb-3 shadow card-theme">
+                    <div class="card-header card-header-theme">
+                        <h5>Operation Time</h5>
+                    </div>
+                    <div card="card-body">
+                        <app-bar-chart></app-bar-chart>
+                    </div>
+                </div>
+           
+
+           
+                    <div class="card mb-3 shadow card-theme">
+                        <div class="card-header card-header-theme">
+                            <h5>Inventory</h5>
+                        </div>
+                        <div card="card-body">
+                            <app-line-chart></app-line-chart>
+                        </div>
+                    </div>
+                </div>
     </div>
 </div>
