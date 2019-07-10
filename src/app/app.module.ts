@@ -20,6 +20,9 @@ import { ServerComponent } from './server/server.component';
 import { SectionProductionsComponent } from './sections/section-productions/section-productions.component';
 import { SectionItemsComponent } from './sections/section-items/section-items.component';
 import { SectionEasyGoComponent } from './sections/section-easy-go/section-easy-go.component';
+import { ProductionLineChartComponent } from './charts/production-line-chart/production-line-chart.component';
+import { OperationTimeBarChartComponent } from './charts/operation-time-bar-chart/operation-time-bar-chart.component';
+import { InventoryLineChartComponent } from './charts/inventory-line-chart/inventory-line-chart.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +38,10 @@ import { SectionEasyGoComponent } from './sections/section-easy-go/section-easy-
     PieChartComponent,
     ServerComponent,
     SectionItemsComponent,
-    SectionEasyGoComponent
+    SectionEasyGoComponent,
+    ProductionLineChartComponent,
+    OperationTimeBarChartComponent,
+    InventoryLineChartComponent
     
   ],
   imports: [
