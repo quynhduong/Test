@@ -7,6 +7,7 @@ import { SectionItemsComponent } from './app/sections/section-items/section-item
 import { SectionEasyGoComponent} from './app/sections/section-easy-go/section-easy-go.component';
 import { SectionRegisterComponent } from './app/sections/section-register/section-register.component';
 import { SectionLoginComponent } from './app/sections/section-login/section-login.component';
+import { SectionDashboardComponent } from './app/sections/section-dashboard/section-dashboard.component';
 
 
 export const appRoutes: Routes = [
@@ -18,6 +19,7 @@ export const appRoutes: Routes = [
     {path:'easygo', component: SectionEasyGoComponent},
     {path:'register', component:SectionRegisterComponent},
     {path:'login', component:SectionLoginComponent},
+    {path: 'dashboard', component:SectionDashboardComponent},
 
     {path: '', redirectTo: '/sales', pathMatch: 'full' }
 ];

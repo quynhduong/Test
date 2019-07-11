@@ -25,6 +25,7 @@ import { OperationTimeBarChartComponent } from './charts/operation-time-bar-char
 import { InventoryLineChartComponent } from './charts/inventory-line-chart/inventory-line-chart.component';
 import { SectionLoginComponent } from './sections/section-login/section-login.component';
 import { SectionRegisterComponent } from './sections/section-register/section-register.component';
+import { SectionDashboardComponent } from './sections/section-dashboard/section-dashboard.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +46,8 @@ import { SectionRegisterComponent } from './sections/section-register/section-re
     OperationTimeBarChartComponent,
     InventoryLineChartComponent,
     SectionLoginComponent,
-    SectionRegisterComponent
+    SectionRegisterComponent,
+    SectionDashboardComponent
     
   ],
   imports: [
