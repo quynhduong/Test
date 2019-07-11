@@ -23,6 +23,8 @@ import { SectionEasyGoComponent } from './sections/section-easy-go/section-easy-
 import { ProductionLineChartComponent } from './charts/production-line-chart/production-line-chart.component';
 import { OperationTimeBarChartComponent } from './charts/operation-time-bar-chart/operation-time-bar-chart.component';
 import { InventoryLineChartComponent } from './charts/inventory-line-chart/inventory-line-chart.component';
+import { SectionLoginComponent } from './sections/section-login/section-login.component';
+import { SectionRegisterComponent } from './sections/section-register/section-register.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +43,9 @@ import { InventoryLineChartComponent } from './charts/inventory-line-chart/inven
     SectionEasyGoComponent,
     ProductionLineChartComponent,
     OperationTimeBarChartComponent,
-    InventoryLineChartComponent
+    InventoryLineChartComponent,
+    SectionLoginComponent,
+    SectionRegisterComponent
     
   ],
   imports: [

@@ -5,6 +5,9 @@ import { SectionHealthsComponent } from './app/sections/section-healths/section-
 import { SectionProductionsComponent } from './app/sections/section-productions/section-productions.component';
 import { SectionItemsComponent } from './app/sections/section-items/section-items.component';
 import { SectionEasyGoComponent} from './app/sections/section-easy-go/section-easy-go.component';
+import { SectionRegisterComponent } from './app/sections/section-register/section-register.component';
+import { SectionLoginComponent } from './app/sections/section-login/section-login.component';
+
 
 export const appRoutes: Routes = [
     {path: 'sales', component: SectionSalesComponent },
@@ -13,6 +16,8 @@ export const appRoutes: Routes = [
     {path: 'production', component: SectionProductionsComponent},
     {path: 'items', component: SectionItemsComponent},
     {path:'easygo', component: SectionEasyGoComponent},
-    
+    {path:'register', component:SectionRegisterComponent},
+    {path:'login', component:SectionLoginComponent},
+
     {path: '', redirectTo: '/sales', pathMatch: 'full' }
 ];
